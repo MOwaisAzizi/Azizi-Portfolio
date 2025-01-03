@@ -1,54 +1,181 @@
-import { motion } from 'motion/react'
-import React from 'react'
+// import { motion } from 'motion/react'
+// import React from 'react'
+
+
+// function ProjectCard({project}) {
+
+//     const variants={
+//         hidden:{opacity:0,y:50},
+//         visible:{opacity:1,y:0},
+//     }
+
+//     return (
+
+//         <motion.div 
+//             variants={variants}
+//             initial="hidden"
+//             whileInView="visible"
+//             transition={{duration:0.5}}
+        
+//         className='flex flex-col items-center justify-center gap-8 md:flex-row md:gap-23'>
+            
+//             <img src={project.image} alt="" className='w-full cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]' />
+//             <div className='flex flex-col gap-5'>
+
+//                 <div className="flex flex-col gap-3">
+
+//                     <div className='text-xl font-semibold'>{project.title}</div>
+//                     <p className='text-gray-400 '>{project.description}</p>
+
+//                 </div>
+//                 <div className="flex flex-wrap gap-5">
+//                     {
+//                         project.techstack.map((tech, i) => {
+//                           return  <span key={i} className='rounded-lg bg-black p-3'>
+//                                 {
+//                                     tech
+//                                 }
+//                             </span>
+//                         })
+//                     }
+
+//                 </div>
+//                 <div className="flex items-center flex-wrap gap-4">
+                
+//                    <a href={project.clink} target='_blank'><button className='p-3 bg-gradient-to-r from-teal-200 to-teal-500 rounded-md font-semibold  hover:text-black'>View Code</button></a> 
+//                    <a href={project.dlink} target='_blank'><button className='p-3 bg-gradient-to-r from-emerald-500 to-emerald-900 rounded-md font-semibold hover:text-black'>Demo</button></a> 
+                
+//                 </div>
+//             </div>
+//         </motion.div>
+//     )
+// }
+
+// export default ProjectCard
+
+
+
+
+import * as React from 'react';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import CardActionArea from '@mui/material/CardActionArea';
+import CardActions from '@mui/material/CardActions';
+import Chip from '@mui/material/Chip';
+import Fade from '@mui/material/Fade';
+
 
 
 function ProjectCard({project}) {
-
-    const variants={
-        hidden:{opacity:0,y:50},
-        visible:{opacity:1,y:0},
-    }
-
     return (
+<div        style={{
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'center',
+            alignItems: 'flex-start',
+            gap: '64px',
+            padding: '16px',
+            flexWrap: 'wrap',
+          }}>
 
-        <motion.div 
-            variants={variants}
-            initial="hidden"
-            whileInView="visible"
-            transition={{duration:0.5}}
-        
-        className='flex flex-col items-center justify-center gap-8 md:flex-row md:gap-23'>
-            
-            <img src={project.image} alt="" className='w-full cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]' />
-            <div className='flex flex-col gap-5'>
+<Fade in={true} timeout={800}>
+              <Card
+                sx={{
+                  maxWidth: 345,
+                  borderRadius: '12px',
+                  backdropFilter: 'blur(1px)',
+                  backgroundColor: 'rgba(18, 18, 18, 0.5)',
+                  boxShadow: '0 4px 20px rgba(255, 255, 255, 0.2)',
+                  transition: 'transform 0.3s, box-shadow 0.3s',
+                  '&:hover': {
+                    transform: 'scale(1.05)',
+                    boxShadow: '0 8px 30px rgba(255, 255, 255, 0.3)',
+                  },
+                }}
+              >
+                <CardActionArea>
+                  <CardMedia
+                    component="img"
+                    height="140"
+                    image={project.image}
+                    alt={project.alt}
+                  />
+                  <CardContent>
+                    <Typography
+                      gutterBottom
+                      variant="h5"
+                      component="div"
+                      sx={{
+                        fontFamily: 'Cinzel, serif',
+                        fontSize: '24px',
+                        color: '#fff',
+                      }}
+                    >
+                      {project.title}
+                    </Typography>
+                    <Typography
+                      variant="body2"
+                      sx={{
+                        fontFamily: 'Roboto, sans-serif',
+                        fontSize: '16px',
+                        color: '#fff',
+                        opacity: 0.8,
+                      }}
+                    >
+                      {project.description}
+                    </Typography>
+                    <div style={{ marginTop: '12px' }}>
+                      {project.techstack.map((tech, idx) => (
+                        <Chip
+                          key={idx}
+                          label={tech}
+                          variant="outlined"
+                          sx={{
+                            color: '#fff',
+                            borderColor: '#00aaff',
+                            margin: '4px',
+                            fontFamily: 'Roboto, sans-serif',
+                            fontSize: '12px',
+                          }}
+                        />
+                      ))}
+                    </div>
+                  </CardContent>
+                </CardActionArea>
+                <CardActions>
+                  <Button
+                    size="small"
+                    href={project.link}
+                    target="_blank"
+                    sx={{
+                      color: '#00aaff',
+                      border: '2px solid #00aaff',
+                      borderRadius: '20px',
+                      padding: '8px 16px',
+                      fontFamily: 'Cinzel, serif',
+                      fontSize: '14px',
+                      textShadow: '0 0 8px #00aaff, 0 0 16px #0088cc',
+                      transition: '0.4s ease-in-out',
+                      '&:hover': {
+                        backgroundColor: '#00aaff',
+                        color: '#000',
+                        boxShadow: '0 0 20px #00aaff, 0 0 40px #0088cc',
+                      },
+                    }}
+                  >
+                    View Project
+                  </Button>
+                </CardActions>
+              </Card>
+            </Fade>
 
-                <div className="flex flex-col gap-3">
+</div>
+          
+    
+    );
+  }
 
-                    <div className='text-xl font-semibold'>{project.title}</div>
-                    <p className='text-gray-400 '>{project.description}</p>
-
-                </div>
-                <div className="flex flex-wrap gap-5">
-                    {
-                        project.techstack.map((tech, i) => {
-                          return  <span key={i} className='rounded-lg bg-black p-3'>
-                                {
-                                    tech
-                                }
-                            </span>
-                        })
-                    }
-
-                </div>
-                <div className="flex items-center flex-wrap gap-4">
-                
-                   <a href={project.clink} target='_blank'><button className='p-3 bg-gradient-to-r from-teal-200 to-teal-500 rounded-md font-semibold  hover:text-black'>View Code</button></a> 
-                   <a href={project.dlink} target='_blank'><button className='p-3 bg-gradient-to-r from-emerald-500 to-emerald-900 rounded-md font-semibold hover:text-black'>Demo</button></a> 
-                
-                </div>
-            </div>
-        </motion.div>
-    )
-}
-
-export default ProjectCard
+  export default ProjectCard

@@ -31,15 +31,7 @@ const projectArray=[
         clink:"https://github.com/MOwaisAzizi/BankApplication"
     },
 
-    {
-        image:pizza,
-        title:'Pizza',
-        description:'I developed a user-friendly interface Pizza online shope in order to buy your favorite piza put it in your basket and order it.',
-        techstack:["React","CSS","tailwind","JavaScript"],
-        dlink:"https://fast-ract-pizza-v2.vercel.app",
-        clink:"https://github.com/MOwaisAzizi/fast-react-pizza-v2"
-        
-    },
+
     {
         image:library,
         title:'Library',
@@ -55,6 +47,15 @@ const projectArray=[
         description:'I developed a mapty website using JavaScrpt, featuring a dynamic, user-friendly interface for showing different locations and abilty to store your activity in locations.',
         techstack:["HTML","CSS","JavaScript"],
         dlink:"https://bhawa2024.com",
+        
+    },
+    {
+        image:pizza,
+        title:'Pizza',
+        description:'I developed a user-friendly interface Pizza online shope in order to buy your favorite piza put it in your basket and order it er to buy your favorite piza put it in your basket er to buy your favorite piza put it in your basket.',
+        techstack:["React","CSS","tailwind","JavaScript"],
+        dlink:"https://fast-ract-pizza-v2.vercel.app",
+        clink:"https://github.com/MOwaisAzizi/fast-react-pizza-v2"
         
     },
 ]
