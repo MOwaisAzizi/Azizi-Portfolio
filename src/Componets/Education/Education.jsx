@@ -1,11 +1,30 @@
 import React from 'react'
+import { motion } from 'motion/react'
 
 function Education() {
-  return (
-    <div className='text-white mb-35 flex flex-col items-center justify-center p-40 pt-40 pb-10' id='education'>
-      <h2 className='text-center text-5xl font-semibold mb-20'>Eduaction</h2>
 
-      <ol className="relative border-s border-gray-200 dark:border-gray-700">
+  const variants={
+    hidden:{opacity:0,y:50},
+    visible:{opacity:1,y:0},
+}
+
+  return (
+    <div className='text-white mb-35 flex flex-col items-center justify-center p-40 pt-40 pb-20' id='education'
+    
+    >
+      <motion.h2
+          variants={variants}
+          initial="hidden"
+          whileInView="visible"
+          transition={{duration:0.5}}
+      className='text-center text-5xl font-semibold mb-20'>Eduaction</motion.h2>
+
+      <motion.ol 
+        variants={variants}
+        initial="hidden"
+        whileInView="visible"
+        transition={{duration:0.5}}
+      className="relative border-s border-gray-200 dark:border-gray-700">
         <li className="mb-10 ms-6">
           <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
             <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -49,7 +68,7 @@ function Education() {
 
         </li>
 
-      </ol>
+      </motion.ol>
 
 
 

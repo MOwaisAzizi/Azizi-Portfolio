@@ -79,6 +79,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Swal from 'sweetalert2';
 import emailjs from '@emailjs/browser'
+import { motion } from 'motion/react';
 
 const Contact = () => {
 
@@ -121,8 +122,19 @@ const Contact = () => {
     alert('Your Data Sended')
   }
 
+  const variants={
+    hidden:{opacity:0,y:50},
+    visible:{opacity:1,y:0},
+}
+
   return (
-    <section className="text-white mb-0 flex flex-col items-center justify-center p-40" id="contact">
+    <motion.section 
+    variants={variants}
+    initial="hidden"
+    whileInView="visible"
+    transition={{duration:0.5}}
+
+    className="text-white mb-0 flex flex-col items-center justify-center p-40" id="contact">
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="sm">
@@ -227,7 +239,7 @@ const Contact = () => {
         </Box>
       </Container>
     </React.Fragment>
-    </section>
+    </motion.section>
   );
 };
 

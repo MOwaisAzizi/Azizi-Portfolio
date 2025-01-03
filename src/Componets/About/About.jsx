@@ -1,5 +1,5 @@
 import React from "react";
-import myImage from "../../assets/Me.jpg";
+import myImage from "../../assets/Me1.jpg";
 import { motion } from "motion/react";
 import { Box } from "@mui/material";
 import cvFile from "../../assets/document/CV.pdf";
@@ -59,7 +59,7 @@ function About() {
 
           <Box
             sx={{
-              marginTop: "2rem",
+              marginTop: "1rem",
               display: "flex",
               justifyContent: { xs: "center", md: "flex-start" },
             }}

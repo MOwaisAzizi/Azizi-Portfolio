@@ -64,10 +64,23 @@ import Chip from "@mui/material/Chip";
 import Fade from "@mui/material/Fade";
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
+import { motion } from "motion/react";
 
 function ProjectCard({ project }) {
+
+  const variants={
+    hidden:{opacity:0,y:50},
+    visible:{opacity:1,y:0},
+}
+
   return (
-    <div
+    <motion.div
+
+     variants={variants}
+    initial="hidden"
+    whileInView="visible"
+    transition={{duration:0.5}}
+
       style={{
         display: "flex",
         flexDirection: "row",
@@ -192,7 +205,7 @@ function ProjectCard({ project }) {
           </CardActions>
         </Card>
       </Fade>
-    </div>
+    </motion.div>
   );
 }
 

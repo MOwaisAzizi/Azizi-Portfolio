@@ -20,10 +20,9 @@ function TechStack() {
             initial="hidden"
             whileInView="visible"
             transition={{duration:0.5}}
+            className='text-4xl text-white font-semibold md:text-5xl mt-10'>Skills</motion.h1>
 
-            className='text-4xl text-white font-semibold md:text-5xl mt-5'>Skills</motion.h1>
-
-            <div className='flex flex-wrap items-center justify-center gap-7 p-5 pt-0'>
+            <div className='flex flex-wrap items-center justify-center gap-7 p-2 pt-0'>
 
                 <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{duration:0.5}}>
                   <BiLogoHtml5 className='cursor-pointer text-[80px] text-red-500 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[100px]' />
