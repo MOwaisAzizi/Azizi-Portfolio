@@ -1,4 +1,4 @@
-import weather from '../assets/weather.png'
+import weather from '../assets/weather.jpg'
 import sell from '../assets/sell.png'
 import bank from '../assets/bank.png'
 import mapty from '../assets/mapty.png'
