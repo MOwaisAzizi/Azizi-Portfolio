@@ -81,7 +81,7 @@ import Swal from 'sweetalert2';
 import emailjs from '@emailjs/browser'
 
 const Contact = () => {
-  
+
   // const onSubmit = async (event) => {
   //   event.preventDefault();
   //   const formData = new FormData(event.target);
@@ -117,13 +117,9 @@ const Contact = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    // if(email.trim() === '' && num.trim()==='') return alert('Please fill the email or number input')
-    // if (Message.trim() === '') return alert('Please fill the message input')
-
     emailjs.sendForm('service_wbk8n58', 'template_cd72onu', e.target, 'D6YlJfjXbdiipAnl2')
     alert('Your Data Sended')
   }
-
 
   return (
     <section className="text-white mb-36 flex flex-col items-center justify-center p-40" id="contact">

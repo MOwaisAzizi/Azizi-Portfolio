@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { BiMenu, BiX } from "react-icons/bi";
-import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { FaFileAlt } from 'react-icons/fa';
 
 function Header() {
   const [isOpen, setIsopen] = useState(false);
@@ -73,11 +74,11 @@ function Header() {
             <BsGithub />{" "}
           </li>
         </a>
-        <a href="http://www.facebook.com/mowais.azizi" target="_blank">
+        <a href="https://flowcv.com/resume/ao3k3188fp" target="_blank">
           {" "}
           <li className="cursor-pointer text-xl opacity-80 transition-all duration-300 hover:text-sky-500 hover:opacity-100">
             {" "}
-            <BsFacebook />{" "}
+            <FaFileAlt />{" "}
           </li>
         </a>
       </ul>
@@ -152,11 +153,11 @@ function Header() {
                 <BsGithub />{" "}
               </li>
             </a>
-            <a href="http://www.facebook.com/mowais.azizi" target="_blank">
+            <a href="https://flowcv.com/resume/ao3k3188fp" target="_blank">
               {" "}
               <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-sky-500 hover:opacity-100">
                 {" "}
-                <BsFacebook />{" "}
+                <FaFileAlt />{" "}
               </li>
             </a>
           </ul>

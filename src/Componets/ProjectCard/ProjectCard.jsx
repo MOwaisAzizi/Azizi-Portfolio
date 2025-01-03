@@ -63,12 +63,7 @@ import CardActions from "@mui/material/CardActions";
 import Chip from "@mui/material/Chip";
 import Fade from "@mui/material/Fade";
 import { BsGithub } from "react-icons/bs";
-import {
-  FaGlobe,
-  FaExternalLinkAlt,
-  FaLink,
-  FaFirefoxBrowser,
-} from "react-icons/fa";
+import { FaGlobe } from "react-icons/fa";
 
 function ProjectCard({ project }) {
   return (

@@ -8,13 +8,13 @@ function Project() {
 
     return (
 
-        <section className='flex min-h-screen w-full flex-col items-center justify-center gap-16 p-4 md:py-24' id='project'>
+        <section className='flex min-h-screen w-full flex-wrap items-center justify-center md:py-24' id='project'>
 
                 <h1 className='text-4xl font-semibold text-white md:text-6xl'>Projects</h1>
                 
 
 
-            <div className="flex flex-col w-full max-[1000px] gap-16 text-white">
+            <div className="flex justify-center flex-wrap w-full max-[1000px] gap-10 text-white">
 
                 {
                     projectArray.map((project, i) => {

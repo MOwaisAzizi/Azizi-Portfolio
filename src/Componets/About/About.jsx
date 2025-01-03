@@ -1,6 +1,9 @@
 import React from 'react'
 import myImage from '../../assets/Me.jpg'
 import { motion } from 'motion/react'
+import { Box } from '@mui/material'
+import cvFile from '../../assets/document/CV.pdf'
+import { FaDownload } from 'react-icons/fa6'
 
 function About() {
     return (
@@ -44,6 +47,73 @@ function About() {
                     I am a full-stack developer in the process of learning and refining my skills in both front-end and back-end technologies. With experience in JavaScript, React, Node.js, and more, I focus on building responsive, user-friendly web applications. My portfolio reflects my commitment to growth and my passion for creating efficient, scalable solutions.
                     </p>
 
+
+                    <Box
+            sx={{
+              marginTop: "2rem",
+              display: "flex",
+              justifyContent: { xs: "center", md: "flex-start" },
+            }}
+          >
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 1, delay: 0.6 }}
+              style={{
+                position: "relative",
+                display: "inline-block",
+              }}
+            >
+              <a
+                href={cvFile}
+                download
+                style={{
+                  textDecoration: "none",
+                }}
+              >
+                
+                <Box
+                  sx={{
+                    position: "relative",
+                    padding: "0.8rem 2rem",
+                    fontSize: "1rem",
+                    fontWeight: "bold",
+                    color: "white",
+                    textAlign: "center",
+                    backgroundColor: "#0a0a23",
+                    borderRadius: "30px",
+                    overflow: "hidden",
+                    cursor: "pointer",
+                    zIndex: 1,
+                    transition: "background-color 0.3s",
+                    "&:hover": {
+                      backgroundColor: "#1a1a33",
+                    },
+                    "&::before": {
+                      content: '""',
+                      position: "absolute",
+                      inset: 0,
+                      borderRadius: "30px",
+                      padding: "2px",
+                      background:
+                        "linear-gradient(90deg, #ebdb34, #00f2fe, #4facfe, #ebdb34)",
+                      mask: "linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)",
+                      WebkitMask:
+                        "linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)",
+                      maskComposite: "exclude",
+                      WebkitMaskComposite: "destination-out",
+                      animation: "neon-border 2s linear infinite",
+                      zIndex: -1,
+                    },
+                  }}
+                >
+                  <FaDownload style={{ marginRight: "5px" }} /> Download CV
+                </Box>
+              </a>
+            </motion.div>
+          </Box>
+
+                    
                 </motion.div>
             </div>
 
