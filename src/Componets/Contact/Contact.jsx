@@ -78,40 +78,52 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Swal from 'sweetalert2';
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    const formData = new FormData(event.target);
+  
+  // const onSubmit = async (event) => {
+  //   event.preventDefault();
+  //   const formData = new FormData(event.target);
     
-    formData.append("access_key", "3aa15a33-2b36-4eb9-9859-b55b7a6d76d2");
+  //   formData.append("access_key", "3aa15a33-2b36-4eb9-9859-b55b7a6d76d2");
     
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
+  //   const object = Object.fromEntries(formData);
+  //   const json = JSON.stringify(object);
     
-    try {
-      const res = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json"
-        },
-        body: json
-      }).then((res) => res.json());
+  //   try {
+  //     const res = await fetch("https://api.web3forms.com/submit", {
+  //       method: "POST",
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //         Accept: "application/json"
+  //       },
+  //       body: json
+  //     }).then((res) => res.json());
       
-      if (res.success) {
-        console.log("Success", res);
-        Swal.fire({
-          title: "Success!",
-          text: "Message Sent Successfully!",
-          icon: "success"
-        });
-        event.target.reset();
-      }
-    } catch (error) {
-      console.error("Error:", error);
-    }
-  };
+  //     if (res.success) {
+  //       console.log("Success", res);
+  //       Swal.fire({
+  //         title: "Success!",
+  //         text: "Message Sent Successfully!",
+  //         icon: "success"
+  //       });
+  //       event.target.reset();
+  //     }
+  //   } catch (error) {
+  //     console.error("Error:", error);
+  //   }
+  // };
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    // if(email.trim() === '' && num.trim()==='') return alert('Please fill the email or number input')
+    // if (Message.trim() === '') return alert('Please fill the message input')
+
+    emailjs.sendForm('service_wbk8n58', 'template_cd72onu', e.target, 'D6YlJfjXbdiipAnl2')
+    alert('Your Data Sended')
+  }
+
 
   return (
     <section className="text-white mb-36 flex flex-col items-center justify-center p-40" id="contact">
