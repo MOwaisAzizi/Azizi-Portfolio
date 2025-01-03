@@ -2,8 +2,8 @@ import React from 'react'
 
 function Education() {
   return (
-    <div className='text-white mb-36 flex flex-col items-center justify-center p-40' id='education'>
-      <h2 className='text-center text-5xl font-semibold mb-32'>Eduaction</h2>
+    <div className='text-white mb-35 flex flex-col items-center justify-center p-40 pt-40 pb-10' id='education'>
+      <h2 className='text-center text-5xl font-semibold mb-20'>Eduaction</h2>
 
       <ol className="relative border-s border-gray-200 dark:border-gray-700">
         <li className="mb-10 ms-6">

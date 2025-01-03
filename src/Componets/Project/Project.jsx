@@ -8,9 +8,9 @@ function Project() {
 
     return (
 
-        <section className='flex min-h-screen w-full flex-wrap items-center justify-center md:py-24' id='project'>
+        <section className='flex min-h-screen w-full flex-wrap items-center justify-center md:py-0' id='project'>
 
-                <h1 className='text-4xl font-semibold text-white md:text-6xl'>Projects</h1>
+                <h1 className='text-4xl font-semibold text-white md:text-6xl mb-10'>Projects</h1>
                 
 
 
