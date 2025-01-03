@@ -138,7 +138,9 @@ const Contact = () => {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="sm">
-      <Box sx={{ 
+      <Box
+      
+      sx={{ 
   minHeight: '40vh', 
   background: 'linear-gradient(to top, #000000, #4B0082, #000000, #000000)', 
   display: 'flex', 
@@ -150,7 +152,7 @@ const Contact = () => {
   backgroundRepeat: 'no-repeat', 
 }}>
 
-          <div className="w-full max-w-md mx-4">
+          <div className="w-full max-w-md mx-4" >
             <Box sx={{ textAlign: 'center', mb: 4 }}>
               <Typography variant="h6" sx={{ color: 'white', mb: 1 }}>
                 Get in touch
@@ -160,14 +162,16 @@ const Contact = () => {
               </Typography>
             </Box>
 
-            <form onSubmit={onSubmit} className="space-y-6">
+            <form onSubmit={onSubmit} className="space-y-6" style={{width:'100%'}}>
               <div>
                 <TextField
+                  size='small'
                   label="Enter Name"
                   name="name"
                   required
                   fullWidth
                   variant="outlined"
+                  // color="secondary" focused
                   sx={{
                     marginBottom: '16px',
                     backgroundColor: 'white',
@@ -183,6 +187,7 @@ const Contact = () => {
                 <TextField
                   label="Enter Email"
                   name="email"
+                  size='small'
                   required
                   fullWidth
                   variant="outlined"
@@ -192,6 +197,7 @@ const Contact = () => {
                     borderRadius: '8px',
                     '& .MuiInputBase-root': {
                       borderRadius: '8px',
+                      // borderColor:'white'
                     },
                   }}
                 />
@@ -217,7 +223,7 @@ const Contact = () => {
                 />
               </div>
 
-              <div className="flex justify-center pt-4">
+              <div className="flex justify-center pt-0">
                 <Button
                   type="submit"
                   variant="contained"
@@ -235,6 +241,7 @@ const Contact = () => {
                 </Button>
               </div>
             </form>
+
           </div>
         </Box>
       </Container>

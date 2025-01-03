@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BiMenu, BiX } from "react-icons/bi";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaFileAlt } from 'react-icons/fa';
+import { FaFileAlt } from "react-icons/fa";
 
 function Header() {
   const [isOpen, setIsopen] = useState(false);
@@ -13,7 +13,7 @@ function Header() {
   return (
     <nav
       className="fixed top-0 z-10 flex w-full items-center 
-    justify-between bg-black/70 px-16 py-6 text-white
+    justify-between bg-black/70 px-10 py-6 text-white
     backdrop-blur-md md:justify-evenly"
     >
       <a
