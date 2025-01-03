@@ -1,7 +1,7 @@
 import weather from '../assets/weather.jpg'
 import sell from '../assets/sell.png'
 import bank from '../assets/bank.png'
-import mapty from '../assets/mapty.png'
+import mapty from '../assets/Mapty.png'
 import library from '../assets/library.png'
 import pizza from '../assets/pizza.png'
 

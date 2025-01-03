@@ -17,7 +17,6 @@ function Footer() {
         <a href="#tech"><p className='text-white  hover:text-blue-500 '>Skill</p></a>
         <a href="#project"><p className='text-white  hover:text-blue-500 '>Project</p></a>
         <a href="#contact"><p className='text-white  hover:text-blue-500 '>Contact</p></a>
-
       </div>
 
     </footer>
