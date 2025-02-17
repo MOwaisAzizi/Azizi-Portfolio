@@ -1,6 +1,5 @@
 
 
-import * as React from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -50,7 +49,7 @@ function ProjectCard({ project }) {
             transition: "transform 0.5s ease-out, box-shadow 0.5s ease-out",
             paddingBottom:'8px',
             "&:hover": {
-              transform: "scale(1.05)",
+              transform: "scale(1.025)",
               boxShadow: "0 8px 30px rgba(255, 255, 255, 0.3)",
             },
           }}
@@ -109,7 +108,7 @@ function ProjectCard({ project }) {
           <CardActions style={{ marginLeft: "12px" }}>
             <Button
               size="small"
-              href={project.dlink}
+              href={project.dLink}
               target="_blank"
               sx={{
                 color: "#00aaff",
@@ -132,7 +131,7 @@ function ProjectCard({ project }) {
 
             <Button
               size="small"
-              href={project.clink}
+              href={project.gLink}
               target="_blank"
               sx={{
                 color: "#00aaff",
