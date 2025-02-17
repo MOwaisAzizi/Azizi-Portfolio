@@ -2,7 +2,7 @@ import weather from '../assets/weather.jpg'
 import shop from '../assets/shop.jpg'
 import bank from '../assets/bank.png'
 import mapty from '../assets/Mapty.png'
-import Library from '../assets/Library.png'
+import library from '../assets/library.png'
 import pizza from '../assets/pizza.png'
 
 const projectArray=[
@@ -24,7 +24,7 @@ const projectArray=[
         gLink:"https://github.com/MOwaisAzizi/BankApplication"
     },
     {
-        image:Library,
+        image:library,
         title:'Library-Management',
         description:'Developed a user-friendly interface Library management app to store your favorite books in Firebase database. you visit, search and retrieve your books after comming later.',
         techstack:["React","CSS","Firebase"],
