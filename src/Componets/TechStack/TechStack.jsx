@@ -21,7 +21,7 @@ function TechStack() {
             transition={{duration:0.5}}
             className='text-4xl text-white font-semibold mt-10 md:text-5xl md:mt-20'>Skills</motion.h1>
 
-            <div className='flex flex-wrap items-center justify-center gap-5 md:gap-6 p-2 pt-0'>
+            <div className='flex flex-wrap items-center justify-center gap-6 p-2 pt-0'>
 
                 <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{duration:0.5}}>
                   <BiLogoHtml5 className='cursor-pointer text-[80px] text-red-500 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[100px]' />
@@ -77,7 +77,7 @@ function TechStack() {
                 
 
                 <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{duration:0.5}}>
-                  <BiLogoJava className='cursor-pointer text-[80px] text-blue-500 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[100px]' />
+                  <BiLogoJava className='cursor-pointer text-[80px] text-blue-400 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[100px]' />
                 </motion.div>
               
                  
