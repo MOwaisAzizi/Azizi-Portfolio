@@ -34,7 +34,7 @@ function ProjectCard({ project }) {
         justifyContent: "center",
         alignItems: "flex-start",
         gap: "64px",
-        padding: "16px ",
+        padding: "20px ",
         flexWrap: "wrap",
       }}
     >

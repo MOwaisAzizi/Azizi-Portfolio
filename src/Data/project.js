@@ -7,14 +7,13 @@ import pizza from '../assets/pizza.png'
 
 const projectArray=[
     {
-        image:pizza,
-        title:'Pizza-Shop',
-        description:'Developed a user-friendly interface for an online pizza shop, allowing you to buy your favorite pizza, put it in your basket as much as you want, and order it if you wish..',
-        techstack:["React","CSS","tailwind"],
-        dLink:"https://fast-react-pizza-v2.vercel.app/",
-        gLink:"https://github.com/MOwaisAzizi/fast-react-pizza-v2"
+        image:weather,
+        title:'Weather App',
+        description:'Developed a responsive weather app using React.js, providing real-time weather updates for all cities in the world with an intuitive and user-friendly interface',
+        techstack:["React","CSS"],
+        dLink:"https://weather-app-delta-ebon.vercel.app/",
+        gLink:"https://github.com/MOwaisAzizi/Weather-App"
     },
-    
     {
         image:bank,
         title:'Bank app',
@@ -50,13 +49,13 @@ const projectArray=[
         
     },
     {
-        image:weather,
-        title:'Weather App',
-        description:'Developed a responsive weather app using React.js, providing real-time weather updates for all cities in the world with an intuitive and user-friendly interface',
-        techstack:["React","CSS"],
-        dLink:"https://weather-app-delta-ebon.vercel.app/",
-        gLink:"https://github.com/MOwaisAzizi/Weather-App"
-    },
+        image:pizza,
+        title:'Pizza-Shop',
+        description:'Developed a user-friendly interface for an online pizza shop, allowing you to buy your favorite pizza, put it in your basket as much as you want, and order it if you wish..',
+        techstack:["React","CSS","tailwind"],
+        dLink:"https://fast-react-pizza-v2.vercel.app/",
+        gLink:"https://github.com/MOwaisAzizi/fast-react-pizza-v2"
+    }
 
 ]
 
