@@ -41,7 +41,7 @@ function ProjectCard({ project }) {
       <Fade in={true} timeout={800}>
         <Card
           sx={{
-            maxWidth: 360,
+            maxWidth: 350,
             borderRadius: "12px",
             backdropFilter: "blur(1px)",
             backgroundColor: "rgba(18, 18, 18, 0.5)",
