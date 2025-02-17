@@ -64,7 +64,7 @@ const Contact = () => {
                   fullWidth
                   variant="outlined"
                   sx={{
-                    marginBottom: '16px',
+                    marginBottom: '12px',
                     backgroundColor: 'white',
                     borderRadius: '8px',
                     '& .MuiInputBase-root': {
