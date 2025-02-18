@@ -50,11 +50,10 @@ function Education() {
              (Undergraduate)
           </span>
           <p className="mb-2 text-base font-normal text-gray-400">
-            I am currently pursuing my bachelor&apos;s degree in Software
-            Engineering at the University of Herat, specializing in front-end
-            Web Development. My studies focus on modern web technologies, user
-            experience design, and responsive web development, preparing me to
-            excel in the tech industry.
+           I am currently pursuing my bachelor's degree in Software Engineering at the University of
+           Herat, specializing in front-end development. My studies focus on modern web technologies,
+            user experience design, and responsive web development,
+           equipping me with the skills to excel in the tech industry.
           </p>
         </li>
 
@@ -71,22 +70,20 @@ function Education() {
             </svg>
           </span>
           <h3 className="flex items-center mb-2 ml-2 text-lg font-semibold text-gray-200 dark:text-white">
-            Frontend In WASSA 
+            Frontend Development Internship
           </h3>
 
           <ul className="mb-4 text-base font-normal text-gray-400">
-            WASSA organization of Herat | 6-month Program
+            WASSA | 6-month Program
             <br />
             <ul className=" list-disc">
               <li>
-                Specialized in front-end development, gaining practical
-                experience with web technologies such as HTML, CSS, JavaScript,
-                and modern front-end frameworks.
+              Specialized in frontend development by gaining practical experience with web technologies
+               such as HTML, CSS, JavaScript, and modern front-end frameworks.
               </li>
               <li>
-                Strengthened problem-solving techniques in frontend,
-                applying these skills to build scalable and interactive web
-                solutions.
+              Enhanced problem-solving techniques in frontend
+               development, applying them to build scalable and interactive web solutions.
               </li>
             </ul>
           </ul>
@@ -109,17 +106,13 @@ function Education() {
           </h3>
 
           <ul className="mb-4 text-base font-normal text-gray-400">
-            I have completed
-            several online courses to enhance my skills in front-end
-            development, including:
-            <br />
+        
             <ul className=" list-disc">
               <li>Responsive Web Design (FreeCodeCamp)</li>
               <li>Complete JavaScript(Udemy)</li>
               <li>Ultimate React Course(Udemy)</li>
             </ul>
-            These courses equipped me with practical knowledge and the
-            confidence to build modern and responsive web applications.
+           
           </ul>
         </li>
       </motion.ol>
