@@ -108,9 +108,9 @@ function Education() {
           <ul className="mb-4 text-base font-normal text-gray-400">
         
             <ul className=" list-disc">
-              <li>Responsive Web Design (FreeCodeCamp)</li>
               <li>Complete JavaScript(Udemy)</li>
               <li>Ultimate React Course(Udemy)</li>
+              <li>Backend Development(Node.js, Express, MongoDB)(Udemy)</li>
             </ul>
            
           </ul>
