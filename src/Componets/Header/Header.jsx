@@ -20,7 +20,7 @@ function Header() {
         href="#home"
         className="bg-gradient-to-r from-blue-500 to-pink-500 
         bg-clip-text text-transparent opacity-80 text-3xl font-semibold 
-        transition-all duration-300 hover:opacity-100 
+        transition-all duration-200 hover:opacity-100 
         "
       >
         Azizi
@@ -29,35 +29,35 @@ function Header() {
       <ul className="hidden md:flex gap-10">
         <a
           href="#home"
-          className="cursor-pointer opacity-75 transition-all duration-300 hover:opacity-100"
+          className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
         >
           {" "}
           <li>Home</li>{" "}
         </a>
         <a
           href="#tech"
-          className="cursor-pointer opacity-75 transition-all duration-300 hover:opacity-100"
+          className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
         >
           {" "}
           <li>Skill</li>{" "}
         </a>
         <a
           href="#project"
-          className="cursor-pointer opacity-75 transition-all duration-300 hover:opacity-100"
+          className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
         >
           {" "}
           <li>Project</li>{" "}
         </a>
         <a
           href="#education"
-          className="cursor-pointer opacity-75 transition-all duration-300 hover:opacity-100"
+          className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
         >
           {" "}
           <li>Education</li>{" "}
         </a>
         <a
           href="#contact"
-          className="cursor-pointer opacity-75 transition-all duration-300 hover:opacity-100"
+          className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
         >
           {" "}
           <li>Contact</li>{" "}
@@ -70,20 +70,20 @@ function Header() {
           target="_blank"
         >
           {" "}
-          <li className="cursor-pointer text-xl opacity-80 transition-all duration-300 hover:text-sky-600 hover:opacity-100">
+          <li className="cursor-pointer text-xl opacity-80 transition-all duration-200 hover:text-sky-600 hover:opacity-100">
             {" "}
             <BsLinkedin />{" "}
           </li>
         </a>
         <a href="https://github.com/MOwaisAzizi" target="_blank">
-          <li className="cursor-pointer text-xl opacity-80 transition-all duration-300 hover:text-dark-500 hover:text-sky-500 hover:opacity-100">
+          <li className="cursor-pointer text-xl opacity-80 transition-all duration-200 hover:text-dark-500 hover:text-sky-500 hover:opacity-100">
             {" "}
             <BsGithub />{" "}
           </li>
         </a>
         <a href="https://flowcv.com/resume/ao3k3188fp" target="_blank">
           {" "}
-          <li className="cursor-pointer text-xl opacity-80 transition-all duration-300 hover:text-sky-500 hover:opacity-100">
+          <li className="cursor-pointer text-xl opacity-80 transition-all duration-200 hover:text-sky-500 hover:opacity-100">
             {" "}
             <FaFileAlt />{" "}
           </li>
@@ -115,35 +115,35 @@ function Header() {
           <ul className="flex flex-col gap-7">
             <a
               href="#home"
-              className="cursor-pointer opacity-75 transition-all duration-300 hover:opacity-100"
+              className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
             >
               {" "}
               <li>Home</li>{" "}
             </a>
             <a
               href="#tech"
-              className="cursor-pointer opacity-75 transition-all duration-300 hover:opacity-100"
+              className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
             >
               {" "}
               <li>Skill</li>{" "}
             </a>
             <a
               href="#project"
-              className="cursor-pointer opacity-75 transition-all duration-300 hover:opacity-100"
+              className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
             >
               {" "}
               <li>Project</li>{" "}
             </a>
             <a
               href="#education"
-              className="cursor-pointer opacity-75 transition-all duration-300 hover:opacity-100"
+              className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
             >
               {" "}
               <li>Education</li>{" "}
             </a>
             <a
               href="#contact"
-              className="cursor-pointer opacity-75 transition-all duration-300 hover:opacity-100"
+              className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
             >
               {" "}
               <li>Contact</li>{" "}
@@ -156,20 +156,20 @@ function Header() {
               target="_blank"
             >
               {" "}
-              <li className="cursor-pointer text-xl opacity-80 transition-all duration-300 hover:text-sky-600 hover:opacity-100">
+              <li className="cursor-pointer text-xl opacity-80 transition-all duration-200 hover:text-sky-600 hover:opacity-100">
                 {" "}
                 <BsLinkedin />{" "}
               </li>
             </a>
             <a href="https://github.com/MOwaisAzizi" target="_blank">
-              <li className="cursor-pointer text-xl opacity-80 transition-all duration-300 hover:text-sky-500 hover:opacity-100">
+              <li className="cursor-pointer text-xl opacity-80 transition-all duration-200 hover:text-sky-500 hover:opacity-100">
                 {" "}
                 <BsGithub />{" "}
               </li>
             </a>
             <a href="https://flowcv.com/resume/ao3k3188fp" target="_blank">
               {" "}
-              <li className="cursor-pointer text-xl opacity-80 transition-all duration-300 hover:text-sky-500 hover:opacity-100">
+              <li className="cursor-pointer text-xl opacity-80 transition-all duration-200 hover:text-sky-500 hover:opacity-100">
                 {" "}
                 <FaFileAlt />{" "}
               </li>

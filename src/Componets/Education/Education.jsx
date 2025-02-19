@@ -73,10 +73,10 @@ function Education() {
             Frontend Development Internship
           </h3>
 
-          <ul className="mb-4 text-base font-normal text-gray-400">
-            WASSA | 6-month Program
+          <ul className="mb-4 text-base font-normal text-gray-300">
+            WASSA (6 months) | CSOFCS (8 months)
             <br />
-            <ul className=" list-disc">
+            <ul className=" list-disc text-gray-400">
               <li>
               Specialized in frontend development by gaining practical experience with web technologies
                such as HTML, CSS, JavaScript, and modern front-end frameworks.
@@ -102,7 +102,7 @@ function Education() {
             </svg>
           </span>
           <h3 className="flex items-center mb-2 ml-2 text-lg font-semibold text-gray-200 dark:text-white">
-            Online Courses
+            Courses
           </h3>
 
           <ul className="mb-4 text-base font-normal text-gray-400">
