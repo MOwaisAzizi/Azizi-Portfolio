@@ -41,14 +41,11 @@ function Education() {
             </svg>
           </span>
           <h3 className="flex items-center mb-2 ml-2 text-lg font-semibold text-gray-200 dark:text-white">
-          Bachelor of Computer Scince(Software Engineering)
+          Bachelor of Computer Science(Software Engineering)
           </h3>
           <time className=" text-base lg:text-lg font-semibold lg:font-normal leading-none text-gray-300">
           Herat University | 2023 - present
           </time>
-          {/* <span className=" text-base leading-none text-gray-300">
-             (Undergraduate)
-          </span> */}
           <p className="mb-2 text-base font-normal text-gray-400">
            I am currently pursuing my bachelor's degree in Software Engineering at the University of
            Herat, specializing in front-end development. My studies focus on modern web technologies,
