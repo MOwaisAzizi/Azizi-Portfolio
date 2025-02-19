@@ -41,7 +41,7 @@ function Education() {
             </svg>
           </span>
           <h3 className="flex items-center mb-2 ml-2 text-lg font-semibold text-gray-200 dark:text-white">
-          Bachelor of Computer Science(Software Engineering)
+          Bachelor of Computer Science (Software Engineering)
           </h3>
           <time className=" text-base lg:text-lg font-semibold lg:font-normal leading-none text-gray-300">
           Herat University | 2023 - present
