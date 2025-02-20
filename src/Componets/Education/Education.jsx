@@ -8,7 +8,7 @@ function Education() {
 
   return (
     <div
-      className="text-white flex flex-col items-center justify-center pt-40 pb-28 px-5 sm:px-10 md:p-40 md:pb-32  "
+      className="text-white flex flex-col items-center justify-center pt-40 pb-28 px-7 sm:px-10 md:p-40 md:pb-32  "
       id="education"
     >
       <motion.h2
@@ -70,7 +70,7 @@ function Education() {
             Frontend Development Internship
           </h3>
 
-          <ul className="mb-4 text-base font-normal text-gray-300">
+          <ul className="mb-4 text-base font-semibold text-gray-300">
             <span className="ml-1">WASSA (6 months) | CSOFCS (8 months)</span>
             <br />
             <ul className=" list-disc text-gray-400 mt-2">
