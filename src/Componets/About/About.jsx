@@ -10,7 +10,7 @@ function About() {
     <section
       id="home"
       className="px-10 flex min-h-screen w-full 
-        items-center justify-center py-28 md:px-32"
+        items-center justify-center py-28 md:px-20 lg:px-32"
     >
       <div className="flex flex-col items-center justify-center gap-10 text-white">
         <motion.div
