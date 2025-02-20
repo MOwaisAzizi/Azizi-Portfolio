@@ -19,7 +19,7 @@ function TechStack() {
             initial="hidden"
             whileInView="visible"
             transition={{duration:0.5}}
-            className='text-4xl text-white font-semibold mt-14 md:text-5xl md:mt-24'>Skills</motion.h1>
+            className='text-4xl text-white font-semibold mt-16 md:text-5xl md:mt-24'>Skills</motion.h1>
 
             <div className='flex flex-wrap items-center justify-center gap-6 p-2 pt-0'>
 
