@@ -40,13 +40,13 @@ function Education() {
               <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
             </svg>
           </span>
-          <h3 className="flex items-center mb-2 ml-2 text-lg font-semibold text-gray-200 dark:text-white">
+          <h3 className="flex items-center mb-0 ml-1 text-lg font-semibold text-gray-200 dark:text-white">
           Bachelor of Computer Science (Software Engineering)
           </h3>
-          <time className=" text-base lg:text-lg font-semibold lg:font-normal leading-none text-gray-300">
+          <time className=" ml-1 text-base lg:text-lg font-semibold lg:font-normal leading-none text-gray-300">
           Herat University | 2023 - present
           </time>
-          <p className="mb-2 text-base font-normal text-gray-400">
+          <p className="mb-2 mt-1 text-base font-normal text-gray-400">
            I am currently pursuing my bachelor's degree in Software Engineering at the University of
            Herat, specializing in front-end development. My studies focus on modern web technologies,
             user experience design, and responsive web development,
@@ -66,14 +66,14 @@ function Education() {
               <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
             </svg>
           </span>
-          <h3 className="flex items-center mb-2 ml-2 text-lg font-semibold text-gray-200 dark:text-white">
+          <h3 className="flex items-center ml-1 text-lg font-semibold text-gray-200 dark:text-white">
             Frontend Development Internship
           </h3>
 
           <ul className="mb-4 text-base font-normal text-gray-300">
-            WASSA (6 months) | CSOFCS (8 months)
+            <span className="ml-1">WASSA (6 months) | CSOFCS (8 months)</span>
             <br />
-            <ul className=" list-disc text-gray-400">
+            <ul className=" list-disc text-gray-400 mt-2">
               <li>
               Specialized in frontend development by gaining practical experience with web technologies
                such as HTML, CSS, JavaScript, and modern front-end frameworks.
@@ -98,7 +98,7 @@ function Education() {
               <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
             </svg>
           </span>
-          <h3 className="flex items-center mb-2 ml-2 text-lg font-semibold text-gray-200 dark:text-white">
+          <h3 className="flex items-center mb-2 ml-1 text-lg font-semibold text-gray-200 dark:text-white">
             Courses
           </h3>
 
