@@ -8,7 +8,7 @@ function Education() {
 
   return (
     <div
-      className="text-white flex flex-col items-center justify-center p-5 ps-7 sm:ps-10 md:p-40 md:pb-32 pt-40 pb-24 "
+      className="text-white flex flex-col items-center justify-center p-5 ps-7 sm:ps-10 md:p-40 md:pb-32 pt-40 pb-28 "
       id="education"
     >
       <motion.h2
