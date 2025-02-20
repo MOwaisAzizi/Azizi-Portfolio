@@ -103,7 +103,7 @@ function ProjectCard({ project }) {
               </div>
             </CardContent>
           </CardActionArea>
-          <CardActions style={{ marginLeft: "12px" }}>
+          <CardActions style={{ marginLeft: "11px" }}>
             <Button
               size="small"
               href={project.dLink}
