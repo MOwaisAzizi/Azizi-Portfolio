@@ -86,7 +86,7 @@ function ProjectCard({ project }) {
               >
                 {project.description}
               </Typography>
-              <div style={{ marginTop: "12px" }}>
+              <div style={{ marginTop: "12px", display:'flex', gap:'10px', flexWrap:'wrap'}}>
                 {project.techstack.map((tech, idx) => (
                   <Chip
                     key={idx}
@@ -95,8 +95,6 @@ function ProjectCard({ project }) {
                     sx={{
                       color: "#fff",
                       borderColor: "#00aaff",
-                      margin: "3px",
-                      marginBottom: "0",
                       fontFamily: "Roboto, sans-serif",
                       fontSize: "12px",
                     }}
@@ -118,7 +116,7 @@ function ProjectCard({ project }) {
                 fontFamily: "Cinzel, serif",
                 fontSize: "14px",
                 textShadow: "0 0 8px #00aaff, 0 0 16px #0088cc",
-                transition: "0.35s ease-in-out",
+                transition: "0.3s ease-in-out",
                 "&:hover": {
                   backgroundColor: "#00aaff",
                   color: "#000",
@@ -141,7 +139,7 @@ function ProjectCard({ project }) {
                 fontFamily: "Cinzel, serif",
                 fontSize: "14px",
                 textShadow: "0 0 8px #00aaff, 0 0 16px #0088cc",
-                transition: "0.35s ease-in-out",
+                transition: "0.3s ease-in-out",
                 "&:hover": {
                   backgroundColor: "#00aaff",
                   color: "#000",
