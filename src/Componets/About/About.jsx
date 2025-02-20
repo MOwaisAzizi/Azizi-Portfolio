@@ -36,7 +36,7 @@ function About() {
         >
           <h1
             className="animate-pulse bg-gradient-to-r from-blue-500 to-pink-500 
-                     bg-clip-text text-transparent text-3xl font- md:text-5xl"
+                     bg-clip-text text-transparent text-4xl font- md:text-5xl"
           >
             Mohammad Owais Azizi
           </h1>
