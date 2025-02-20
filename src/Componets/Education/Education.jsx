@@ -47,10 +47,10 @@ function Education() {
           Herat University | 2023 - present
           </time>
           <p className="mb-2 mt-1 text-base font-normal text-gray-400">
-           I am currently pursuing my bachelor's degree in Software Engineering at the University of
-           Herat, specializing in front-end development. My studies focus on modern web technologies,
-            user experience design, and responsive web development,
-           equipping me with the skills to excel in the tech industry.
+          I am currently studying Software Engineering at Herat University. As part of my studies, 
+          I am learning about databases, various programming languages, data structures,
+           and algorithms. I am passionate about technology
+           and constantly striving to improve my problem-solving and software development skills.
           </p>
         </li>
 
