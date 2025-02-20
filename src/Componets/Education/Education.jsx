@@ -8,7 +8,7 @@ function Education() {
 
   return (
     <div
-      className="text-white flex flex-col items-center justify-center p-5 ps-7 sm:ps-10 md:p-40 pt-40 pb-20 "
+      className="text-white flex flex-col items-center justify-center p-5 ps-7 sm:ps-10 md:p-40 md:pb-32 pt-40 pb-24 "
       id="education"
     >
       <motion.h2
@@ -86,7 +86,7 @@ function Education() {
           </ul>
         </li>
 
-        <li className="mb-10 ms-6">
+        <li className="mb-5 ms-6">
           <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
             <svg
               className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
@@ -102,14 +102,12 @@ function Education() {
             Courses
           </h3>
 
-          <ul className="mb-4 text-base font-normal text-gray-400">
-        
-            <ul className=" list-disc">
+          <ul className="mb-2 text-base font-normal text-gray-400">
+            <ul className="list-disc">
               <li>Complete JavaScript(Udemy)</li>
               <li>Ultimate React Course(Udemy)</li>
               <li>Backend Development(Node.js, Express, MongoDB)(Udemy)</li>
             </ul>
-           
           </ul>
         </li>
       </motion.ol>
