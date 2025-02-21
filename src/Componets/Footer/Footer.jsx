@@ -14,7 +14,7 @@ function Footer() {
         <a href="https://wa.me/93798267860" target='_blank'><BsWhatsapp className='text-3xl cursor-pointer text-gray-300 hover:text-blue-500' /></a>
       </div>
 
-      <div className="flex gap-5 sm:gap-6 items-center justify-center mt-5">
+      <div className="flex gap-4 sm:gap-6 items-center justify-center mt-5">
         <a href="#home"><p className='text-white hover:text-blue-500 '>Home</p></a>
         <a href="#techs"><p className='text-white  hover:text-blue-500 '>Skills</p></a>
         <a href="#projects"><p className='text-white  hover:text-blue-500 '>Projects</p></a>
