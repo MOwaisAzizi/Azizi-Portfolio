@@ -132,7 +132,7 @@ function Header() {
               className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
             >
               {" "}
-              <li>Projecst</li>{" "}
+              <li>Projects</li>{" "}
             </a>
             <a
               href="#education"
