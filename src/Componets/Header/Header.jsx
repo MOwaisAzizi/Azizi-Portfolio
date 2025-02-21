@@ -26,7 +26,7 @@ function Header() {
         Azizi
       </a>
 
-      <ul className="hidden md:flex gap-10">
+      <ul className="hidden md:flex gap-9 lg:gap-10">
         <a
           href="#home"
           className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
@@ -39,14 +39,14 @@ function Header() {
           className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
         >
           {" "}
-          <li>Skill</li>{" "}
+          <li>Skills</li>{" "}
         </a>
         <a
           href="#project"
           className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
         >
           {" "}
-          <li>Project</li>{" "}
+          <li>Projects</li>{" "}
         </a>
         <a
           href="#education"
@@ -125,14 +125,14 @@ function Header() {
               className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
             >
               {" "}
-              <li>Skill</li>{" "}
+              <li>Skills</li>{" "}
             </a>
             <a
               href="#project"
               className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
             >
               {" "}
-              <li>Project</li>{" "}
+              <li>Projecst</li>{" "}
             </a>
             <a
               href="#education"
