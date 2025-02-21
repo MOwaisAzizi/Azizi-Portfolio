@@ -10,7 +10,7 @@ function Project() {
     }
 
     return (
-        <section className='flex min-h-screen w-full flex-wrap items-center justify-center pb-10 scroll-mt-40 md:pb-10 ' id='project'>
+        <section className='flex min-h-screen w-full flex-wrap items-center justify-center pb-10 scroll-mt-40 md:pb-10 ' id='projects'>
 
                 <motion.h1 className='text-4xl font-semibold text-white md:text-5xl mb-10'
                 variants={variants}

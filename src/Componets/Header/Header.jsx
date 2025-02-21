@@ -35,14 +35,14 @@ function Header() {
           <li>Home</li>{" "}
         </a>
         <a
-          href="#tech"
+          href="#techs"
           className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
         >
           {" "}
           <li>Skills</li>{" "}
         </a>
         <a
-          href="#project"
+          href="#projects"
           className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
         >
           {" "}
@@ -128,7 +128,7 @@ function Header() {
               <li>Skills</li>{" "}
             </a>
             <a
-              href="#project"
+              href="#projects"
               className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
             >
               {" "}
