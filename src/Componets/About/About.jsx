@@ -58,7 +58,7 @@ function About() {
 
           <Box
             sx={{
-              marginTop: "1rem",
+              marginTop: "0.75rem",
               display: "flex",
               justifyContent: { xs: "center", md: "flex-start" },
             }}
@@ -66,7 +66,7 @@ function About() {
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ duration: 1, delay: 0.6 }}
+              transition={{ duration: 1, delay: 0.5 }}
               style={{
                 position: "relative",
                 display: "inline-block",
