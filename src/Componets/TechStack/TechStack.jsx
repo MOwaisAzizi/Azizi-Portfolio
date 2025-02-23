@@ -9,14 +9,14 @@ function TechStack() {
     }
 
     return (
-        <section className='mb-44 flex min-h[70vh] w-full flex-col items-center justify-center gap-12 md:gap-30 scroll-mt-20' id='techs'>
+        <section className='mb-44 flex min-h[70vh] w-full flex-col items-center justify-center mt-16 md:mt-20 gap-10 scroll-mt-20' id='techs'>
 
             <motion.h1 
             variants={variants}
             initial="hidden"
             whileInView="visible"
             transition={{duration:0.5}}
-            className='text-4xl text-white font-semibold mt-16 md:text-5xl md:mt-20'>Skills</motion.h1>
+            className='text-4xl text-white font-semibold  md:text-5xl '>Skills</motion.h1>
 
             <div className='flex flex-wrap items-center justify-center gap-6 p-2 pt-0 sm:px-3'>
 
