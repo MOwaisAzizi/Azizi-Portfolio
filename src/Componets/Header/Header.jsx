@@ -26,7 +26,7 @@ function Header() {
         Azizi
       </a>
 
-      <ul className="hidden md:flex gap-9 lg:gap-10">
+      <ul className="hidden md:flex gap-9 lg:gap-10 ">
         <a
           href="#home"
           className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
@@ -108,7 +108,7 @@ function Header() {
         <div
           className={`fixed md:hidden right-0 top-[84px] flex h-screen w-1/2 
                     flex-col items-start justify-start gap-10 border-l font-semibold
-                     border-gray-800 bg-black/90 p-8 py-6 ${
+                     border-gray-800 bg-black/90 p-8 ${
                        isOpen ? "block" : "hidden"
                      }`}
         >
