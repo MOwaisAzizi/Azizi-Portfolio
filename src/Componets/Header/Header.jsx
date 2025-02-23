@@ -108,7 +108,7 @@ function Header() {
         <div
           className={`fixed md:hidden right-0 top-[75px] flex h-screen w-1/2 
                     flex-col items-start justify-start gap-10 border-l
-                     border-gray-800 bg-black/90 p-10 ${
+                     border-gray-800 bg-black/90 p-5 ${
                        isOpen ? "block" : "hidden"
                      }`}
         >
