@@ -106,13 +106,13 @@ function Header() {
       {/* to handel side navigation Bar */}
       {isOpen && (
         <div
-          className={`fixed md:hidden right-0 top-[84px] flex h-screen w-1/2 
+          className={`fixed md:hidden right-0 top-[80px] flex h-screen w-1/2 
                     flex-col items-start justify-start gap-10 border-l
                      border-gray-800 bg-black/90 p-10 ${
                        isOpen ? "block" : "hidden"
                      }`}
         >
-          <ul className="flex flex-col gap-7">
+          <ul className="flex flex-col gap-6">
             <a
               href="#home"
               className="cursor-pointer opacity-75 transition-all duration-200 hover:opacity-100"
