@@ -26,7 +26,7 @@ const Contact = () => {
     initial="hidden"
     whileInView="visible"
     transition={{duration:0.5}} 
-    className="text-white mb-0 flex flex-col md:w-full items-center justify-center p-20 pt-14 pb-24 md:pt-16 scroll-mt-8 md:scroll-mt-16 " id="contact">
+    className="text-white mb-0 flex flex-col md:w-full items-center justify-center p-20 pt-12 pb-24 md:pt-16 scroll-mt-8 md:scroll-mt-16 " id="contact">
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="sm">
