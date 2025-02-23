@@ -106,9 +106,9 @@ function Header() {
       {/* to handel side navigation Bar */}
       {isOpen && (
         <div
-          className={`fixed md:hidden right-0 top-[75px] flex h-screen w-1/2 
+          className={`fixed md:hidden right-0 top-[84px] flex h-screen w-1/2 
                     flex-col items-start justify-start gap-10 border-l
-                     border-gray-800 bg-black/90 p-8 ${
+                     border-gray-800 bg-black/90 p-8 py-6 ${
                        isOpen ? "block" : "hidden"
                      }`}
         >
