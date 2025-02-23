@@ -9,7 +9,7 @@ function TechStack() {
     }
 
     return (
-        <section className='mb-44 flex min-h[70vh] w-full flex-col items-center justify-center mt-16 md:mt-20 gap-10 scroll-mt-24 md:scroll-mt-40' id='techs'>
+        <section className='mb-44 flex min-h[70vh] w-full flex-col items-center justify-center mt-16 md:mt-20 gap-10 scroll-mt-28 md:scroll-mt-48' id='techs'>
 
             <motion.h1 
             variants={variants}
