@@ -60,7 +60,7 @@ function ProjectCard({ project }) {
               component="img"
               height="140"
               image={project.image}
-              alt={project.alt}
+              alt={'Project Image'}
             />
             <CardContent>
               <Typography
