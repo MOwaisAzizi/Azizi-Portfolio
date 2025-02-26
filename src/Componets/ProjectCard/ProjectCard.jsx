@@ -56,11 +56,11 @@ function ProjectCard({ project }) {
         >
           <CardActionArea>
             <CardMedia
-              className="h-[190px]"
+              className="h-[190px] text-white"
               component="img"
               height="140"
               image={project.image}
-              alt={'Project Image'}
+              alt={`${project.title} Image`}
             />
             <CardContent>
               <Typography

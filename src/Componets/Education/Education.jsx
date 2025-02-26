@@ -8,7 +8,7 @@ function Education() {
 
   return (
     <div
-      className="text-white flex flex-col items-center justify-center mt-32 mb-28 px-7 sm:px-10 md:px-32 md:mt-32 scroll-mt-24 md:scroll-mt-28 "
+      className="text-white flex flex-col items-center justify-center mt-32 mb-28 px-8 sm:px-10 md:px-32 md:mt-32 scroll-mt-24 md:scroll-mt-28 "
       id="education"
     >
       <motion.h2
@@ -40,13 +40,13 @@ function Education() {
               <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
             </svg>
           </span>
-          <h3 className="flex items-center mb-0 ml-1 text-lg font-semibold text-gray-200 dark:text-white">
+          <h3 className="flex items-center ml-1 text-lg font-semibold text-gray-200 dark:text-white">
           Bachelor of Computer Science (Software Engineering)
           </h3>
           <time className=" ml-1 text-base lg:text-lg font-semibold lg:font-normal leading-none text-gray-300">
           Herat University | 2023 - present
           </time>
-          <p className="mb-2 mt-1 text-base font-normal text-gray-400">
+          <p className="mt-2 text-base font-normal text-gray-400">
           I am currently studying Software Engineering at Herat University. As part of my studies, 
           I am learning about databases, various programming languages, data structures,
            and algorithms. I am passionate about technology
@@ -70,7 +70,7 @@ function Education() {
             Frontend Development Internship
           </h3>
 
-          <ul className="mb-4 text-base font-semibold text-gray-300">
+          <ul className="text-base font-semibold text-gray-300">
             <span className="ml-1">WASSA (6 months) | CSOFCS (8 months)</span>
             <br />
             <ul className=" list-disc text-gray-400 mt-2">
