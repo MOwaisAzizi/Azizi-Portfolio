@@ -66,9 +66,10 @@ const Contact = () => {
                   sx={{
                     marginBottom: '12px',
                     backgroundColor: 'white',
-                    borderRadius: '8px',
+                    borderRadius: '10px',
                     '& .MuiInputBase-root': {
-                      borderRadius: '8px',
+                      borderRadius: '10px',
+                      padding:'1px',
                       '&.Mui-focused fieldset': {
                         borderColor:'green',
                         borderWidth:'1px'
@@ -94,10 +95,10 @@ const Contact = () => {
                   sx={{
                     marginBottom: '16px',
                     backgroundColor: 'white',
-                    borderRadius: '8px',
+                    borderRadius: '10px',
                     
                     '& .MuiInputBase-root': {
-                      borderRadius: '8px',
+                      borderRadius: '10px',
                       '&.Mui-focused fieldset': {
                         borderColor:'green',
                         borderWidth:'1px'
@@ -123,9 +124,9 @@ const Contact = () => {
                   sx={{
                     marginBottom: '10px',
                     backgroundColor: 'white',
-                    borderRadius: '8px',
+                    borderRadius: '10px',
                     '& .MuiInputBase-root': {
-                      borderRadius: '8px',
+                      borderRadius: '10px',
                       '&.Mui-focused fieldset': {
                         borderColor:'green',
                         borderWidth:'1px'
@@ -145,7 +146,7 @@ const Contact = () => {
                   color="primary"
                   sx={{
                     padding: '10px 20px',
-                    borderRadius: '8px',
+                    borderRadius: '10px',
                     background: 'linear-gradient(45deg, #6a1b9a, #8e24aa)',
                     '&:hover': {
                       background: 'linear-gradient(45deg, #8e24aa, #6a1b9a)',
