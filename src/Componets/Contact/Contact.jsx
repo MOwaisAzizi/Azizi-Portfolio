@@ -70,7 +70,8 @@ const Contact = () => {
                     '& .MuiInputBase-root': {
                       borderRadius: '8px',
                       '&.Mui-focused fieldset': {
-                        borderColor:'green'
+                        borderColor:'green',
+                        borderWidth:'1px'
                       },
                     },
                       '& .MuiInputLabel-root.Mui-focused': {
@@ -98,7 +99,8 @@ const Contact = () => {
                     '& .MuiInputBase-root': {
                       borderRadius: '8px',
                       '&.Mui-focused fieldset': {
-                        borderColor:'green'
+                        borderColor:'green',
+                        borderWidth:'1px'
                       },
                     },
                       '& .MuiInputLabel-root.Mui-focused': {
@@ -125,7 +127,8 @@ const Contact = () => {
                     '& .MuiInputBase-root': {
                       borderRadius: '8px',
                       '&.Mui-focused fieldset': {
-                        borderColor:'green'
+                        borderColor:'green',
+                        borderWidth:'1px'
                       },
                     },
                       '& .MuiInputLabel-root.Mui-focused': {
