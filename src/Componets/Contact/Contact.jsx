@@ -69,7 +69,13 @@ const Contact = () => {
                     borderRadius: '8px',
                     '& .MuiInputBase-root': {
                       borderRadius: '8px',
+                      '&.Mui-focused fieldset': {
+                        borderColor:'green'
+                      },
                     },
+                      '& .MuiInputLabel-root.Mui-focused': {
+                        color: 'green',
+                      },
                   }}
                 />
               </div>
@@ -91,7 +97,13 @@ const Contact = () => {
                     
                     '& .MuiInputBase-root': {
                       borderRadius: '8px',
+                      '&.Mui-focused fieldset': {
+                        borderColor:'green'
+                      },
                     },
+                      '& .MuiInputLabel-root.Mui-focused': {
+                        color: 'green',
+                      },
                   }}
                 />
               </div>
@@ -112,8 +124,13 @@ const Contact = () => {
                     borderRadius: '8px',
                     '& .MuiInputBase-root': {
                       borderRadius: '8px',
+                      '&.Mui-focused fieldset': {
+                        borderColor:'green'
+                      },
                     },
-                    width: '100%',
+                      '& .MuiInputLabel-root.Mui-focused': {
+                        color: 'green',
+                      },
                   }}
                 />
               </div>
