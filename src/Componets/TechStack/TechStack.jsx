@@ -1,6 +1,6 @@
 import { motion } from 'motion/react'
 import {BiLogoHtml5,BiLogoGit,BiLogoGithub,BiLogoRedux,BiLogoCss3, BiLogoBootstrap,BiLogoTailwindCss, BiLogoJavascript, BiLogoReact, BiLogoNodejs,BiLogoJava,BiLogoMongodb } from 'react-icons/bi'
-
+import { SiExpress } from 'react-icons/si'
 function TechStack() {
 
     const variants={
@@ -9,7 +9,7 @@ function TechStack() {
     }
 
     return (
-        <section className='mb-44 flex min-h[70vh] w-full flex-col items-center justify-center mt-16 md:mt-20 gap-10 scroll-mt-28 md:scroll-mt-48' id='techs'>
+        <section className='mb-44 flex min-h[70vh] w-full flex-col items-center justify-center mt-16 md:mt-20 gap-10 scroll-mt-24 md:scroll-mt-44' id='techs'>
 
             <motion.h1 
             variants={variants}
@@ -48,39 +48,29 @@ function TechStack() {
                 </motion.div>
 
                 <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{duration:0.5}}>
+                  <BiLogoNodejs className='cursor-pointer text-[75px] text-green-600 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[100px]' />
+                </motion.div>
+                
+                <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{duration:0.5}}>
+                  <SiExpress  className='cursor-pointer text-[75px] text-white transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[100px]' />
+                </motion.div>
+
+                <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{duration:0.5}}>
+                  <BiLogoMongodb className='cursor-pointer text-[75px] text-green-300 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[100px]' />
+                </motion.div>
+
+                <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{duration:0.5}}>
                   <BiLogoGit className='cursor-pointer text-[75px] text-red-500 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[100px]' />
                 </motion.div>
 
                 <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{duration:0.5}}>
                   <BiLogoGithub className='cursor-pointer text-[75px] text-white transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[100px]' />
                 </motion.div>
-
-
-                {/* <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{duration:0.5}}>
-                  <BiLogoNodejs className='cursor-pointer text-[75px] text-green-600 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[100px]' />
-                </motion.div>
-
-                <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{duration:0.5}}>
-                  <GrMysql className='cursor-pointer text-[75px] text-blue-300 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[100px]' />
-                </motion.div>
-
-                <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{duration:0.5}}>
-                  <BiLogoMongodb className='cursor-pointer text-[75px] text-green-300 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[100px]' />
-                </motion.div>
                 
-                <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{duration:0.5}}>
-                  <SiExpress  className='cursor-pointer text-[75px] text-white transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[100px]' />
-                </motion.div> */}
-                
-
                 <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{duration:0.5}}>
                   <BiLogoJava className='cursor-pointer text-[75px] text-blue-400 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[100px]' />
                 </motion.div>
-              
-                 
-                 
-
-
+             
             </div>
 
         </section>
